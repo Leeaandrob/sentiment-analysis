@@ -1,52 +1,29 @@
-# Heroku Django Starter Template
+# Sentiment analysis using Django
 
-An utterly fantastic project starter template for Django 1.9.
+A project to get and analysis sentimento from facebook page posts
 
 ## Features
 
-- Production-ready configuration for Static Files, Database Settings, Gunicorn, etc.
-- Enhancements to Django's static file serving functionality via WhiteNoise
+- GET Facebook page posts comments
+- View to display sentiment analysis
 
 ## How to Use
 
-To use this project, follow these steps:
-
 1. Create your working environment inside a dir with `$ python3 -m venv env`
 2. Activate Virtual Env with `$ source env/bin/activate`
-3. Install Django (`$ pip install django`)
-4. Create a new project using this template
-5. `$ pip install -r dev-requirements.txt`
-6. `$ mv helloworld/settings{.rename.ini,.ini}`
+3. Install the requirements (`$ pip install -r dev-requirements.txt`)
+4. `$ Make migrations`
+5. `$ Make migrate`
+6. `$ Make run`
 
-## Creating Your Project
+## Deployment to Heroku
 
-Using this template to create a new Django app is easy:
+First install heroku toolbelt to use this..
+After your finish the release follow this steps.
 
-    $ django-admin startproject --template=https://github.com/Leeaandrob/django-template-products/archive/master.zip --extension=ini,py --name=Procfile helloworld .
-
-You can replace ``helloworld`` with your desired project name.
-
-## First deployment to Heroku
-
-    $ git init
-    $ git add -A
+    $ heroku git:remote
+    $ git add .
     $ git commit -m "Initial commit"
+	$ git push heroku master
 
-    $ heroku create {{ project_name }}
-    $ heroku config:set SECRET_KEY='{{ secret_key }}'
-    $ heroku config:set MANO_APPLICATION_NAME={{ project_name }}
-    $ heroku config:set MANO_URL=https://accounts.mano.cx/
-    $ heroku config:set DEBUG=False
-    $ heroku config:set FORCE_SSL=False
-    $ heroku config:set RAVEN_URL={{ SENTRY DSN URL }}
-    $ git push heroku master
-
-    $ heroku run python manage.py migrate
-
-See also, a [ready-made application](https://github.com/heroku/python-getting-started), ready to deploy.
-
-## Further Reading
-
-- [Gunicorn](https://warehouse.python.org/project/gunicorn/)
-- [WhiteNoise](https://warehouse.python.org/project/whitenoise/)
-- [dj-database-url](https://warehouse.python.org/project/dj-database-url/)
+And done :)
