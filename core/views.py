@@ -10,7 +10,7 @@ class HomeView(TemplateView):
     def get_all_comments(self):
         response = requests.get(
             'https://facebook-downloader.herokuapp.com/download/?query=nytimes'
-            '/posts?fields=comments.limit(1),permalink_url&limit=1')
+            '/posts?fields=comments.limit(180),permalink_url&limit=5')
 
         return response.json()
 

@@ -8,7 +8,7 @@ from rest_framework.views import APIView
 
 class HomeAPI(APIView):
     def get_all_comments(self, page_name):
-        url = 'https://facebook-downloader.herokuapp.com/download/?query={page_name}/posts?fields=comments.limit(1),permalink_url&limit=1'.format(page_name=page_name)
+        url = 'https://facebook-downloader.herokuapp.com/download/?query={page_name}/posts?fields=comments.limit(50),permalink_url&limit=3'.format(page_name=page_name)
 
         response = requests.get(url)
 
