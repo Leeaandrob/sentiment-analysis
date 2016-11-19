@@ -1,5 +1,16 @@
 {% extends 'base.html'%}
 
 {% block content%}
-{{ comments }}
+{% for post in comments %}
+	<div>
+		<img src="{{ post.full_picture }}" width="360px">
+		<div>
+			{% for comment in post.comments.data %}
+				<h3>{{ comment.from.name }}</h2>
+				<h4>{{ comment.created_time }}</h2>
+				<p>{{ comment.message }}</p>
+			{% endfor%}
+		</div>
+	</div>
+{% endfor %}
 {% endblock %}
