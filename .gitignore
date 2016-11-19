@@ -2,3 +2,4 @@ env
 *.pyc
 staticfiles
 settings.ini
+sentiment_analyst/db.sqlite3

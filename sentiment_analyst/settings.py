@@ -16,6 +16,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'raven.contrib.django.raven_compat',
+
+    'sentiment_analyst',
+    'core',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -62,16 +65,20 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = (
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation.UserAttribute'
+        'SimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation.MinimumLength'
+        'Validator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.CommonPassword'
+        'Validator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.NumericPassword'
+        'Validator',
     },
 )
 
@@ -142,7 +149,8 @@ LOGGING = {
         },
         'sentry': {
             'level': 'ERROR',
-            'class': 'raven.contrib.django.raven_compat.handlers.SentryHandler',
+            'class': 'raven.contrib.django.raven_compat.handlers.'
+            'SentryHandler',
         },
     },
     'loggers': {
