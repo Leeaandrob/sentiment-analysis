@@ -16,8 +16,6 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'raven.contrib.django.raven_compat',
-
-    'mano_id',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -29,7 +27,6 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'mano_id.middleware.ManoSessionMiddleware',
 )
 
 ROOT_URLCONF = 'sentiment_analyst.urls'
@@ -99,11 +96,6 @@ STATICFILES_DIRS = [
     BASE_DIR.child('static'),
 ]
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
-AUTH_USER_MODEL = 'mano_id.User'
-
-MANO_APPLICATION_NAME = config('MANO_APPLICATION_NAME')
-MANO_URL = config('MANO_URL')
 
 LOGIN_URL = '/login/'
 
