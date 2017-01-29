@@ -1,0 +1,131 @@
+(['...'], 'positive')
+(['...'], 'positive')
+(['...'], 'positive')
+(['...'], 'positive')
+(['...'], 'positive')
+(['...'], 'negative')
+(['...'], 'negative')
+(['...'], 'negative')
+(['...'], 'negative')
+(['...'], 'negative')
+Most Informative Features
+           contains(...) = True           positi : negati =      1.0 : 1.0
+None
+Tweet: RT @JrJrnascimentto: A diferenca entre brasileiros e esquerdistas, e que nao defendemos ladroes. @roxmo @SakaSakamori #VemPraRuaBrasil http… 
+ Sentiment: positive 
+
+Tweet: RT @o_antagonista: Brasil diz: “Nunca mais”. Compartilhe imagens com #antagonistasnasruas #VemPraRuaBrasil &gt; https://t.co/r5aDxs9Ze3 
+ Sentiment: positive 
+
+Tweet: RT @paulacamara_: BH na rua pela Lava Jato #VemPraRuaBrasil https://t.co/MctcTBZTm4 
+ Sentiment: positive 
+
+Tweet: https://t.co/ZNJ5FQ7dJ8 #VemPraRuaBrasil 
+ Sentiment: positive 
+
+Tweet: RT @SeriaIdeal: Vejam esse absurdo (os que estão contra) e entendam de uma vez o porquê do protesto #VempraruaBrasil https://t.co/P46QIyz9K7 
+ Sentiment: positive 
+
+Tweet: #VemPraRuaBrasil #DomingoComVoceSabiaSDV https://t.co/hEfSNndwK0 
+ Sentiment: positive 
+
+Tweet: Retweeted Ary ANTI PT (@Ary_AntiPT):
+
+Curitiba bandeirao em apoio a Lava Jato 
+#VemPraRuaBrasil... https://t.co/gXBH7Dbn5f 
+ Sentiment: positive 
+
+Tweet: RT @Rodrigo_Moller_: Vamos desenhar pra ver se o Renan Calheiros entende...
+
+#VemPraRuaBrasil https://t.co/sQo8MX8maa 
+ Sentiment: positive 
+
+Tweet: RT @naosejatrouxa: Se tem um lugar onde eu queria estar agora é nos protestos q tão tendo hoje  #VemPraRuaBrasil https://t.co/ObaLQjSMlS 
+ Sentiment: positive 
+
+Tweet: RT @belluccis: tai ! #VemPraRuaBrasil https://t.co/hhhXTxO8eI 
+ Sentiment: positive 
+
+Tweet: RT @leandromoc: #VemPraRuaBrasil
+
+estamos
+juntos
+
+Batman!
+
+.
+. https://t.co/HrxJYZYYET 
+ Sentiment: positive 
+
+Tweet: RT @shumbinho: #VemPraRuaBrasil https://t.co/nXPN16nzQ0 
+ Sentiment: positive 
+
+Tweet: RT @aeciodepapelao: Os "milhões de Cunhas" voltaram.  #VemPraRuaBrasil https://t.co/SxHm50s4mv 
+ Sentiment: positive 
+
+Tweet: Retweeted Ary ANTI PT (@Ary_AntiPT):
+
+Curitiba 
+#VemPraRuaBrasil 
+A República de Curitiba te espera... https://t.co/aR4ZxtBPLC 
+ Sentiment: positive 
+
+Tweet: RT @JrJrnascimentto: A diferenca entre brasileiros e esquerdistas, e que nao defendemos ladroes. @roxmo @SakaSakamori #VemPraRuaBrasil http… 
+ Sentiment: Sentiment(classification='pos', p_pos=0.5, p_neg=0.5) 
+
+Tweet: RT @o_antagonista: Brasil diz: “Nunca mais”. Compartilhe imagens com #antagonistasnasruas #VemPraRuaBrasil &gt; https://t.co/r5aDxs9Ze3 
+ Sentiment: Sentiment(classification='pos', p_pos=0.5, p_neg=0.5) 
+
+Tweet: RT @paulacamara_: BH na rua pela Lava Jato #VemPraRuaBrasil https://t.co/MctcTBZTm4 
+ Sentiment: Sentiment(classification='neg', p_pos=0.3571428571428571, p_neg=0.6428571428571429) 
+
+Tweet: https://t.co/ZNJ5FQ7dJ8 #VemPraRuaBrasil 
+ Sentiment: Sentiment(classification='pos', p_pos=0.5, p_neg=0.5) 
+
+Tweet: RT @SeriaIdeal: Vejam esse absurdo (os que estão contra) e entendam de uma vez o porquê do protesto #VempraruaBrasil https://t.co/P46QIyz9K7 
+ Sentiment: Sentiment(classification='pos', p_pos=0.5434782608695654, p_neg=0.4565217391304346) 
+
+Tweet: #VemPraRuaBrasil #DomingoComVoceSabiaSDV https://t.co/hEfSNndwK0 
+ Sentiment: Sentiment(classification='pos', p_pos=0.5, p_neg=0.5) 
+
+Tweet: Retweeted Ary ANTI PT (@Ary_AntiPT):
+
+Curitiba bandeirao em apoio a Lava Jato 
+#VemPraRuaBrasil... https://t.co/gXBH7Dbn5f 
+ Sentiment: Sentiment(classification='neg', p_pos=0.49607072691552007, p_neg=0.5039292730844791) 
+
+Tweet: RT @Rodrigo_Moller_: Vamos desenhar pra ver se o Renan Calheiros entende...
+
+#VemPraRuaBrasil https://t.co/sQo8MX8maa 
+ Sentiment: Sentiment(classification='pos', p_pos=0.5, p_neg=0.5) 
+
+Tweet: RT @naosejatrouxa: Se tem um lugar onde eu queria estar agora é nos protestos q tão tendo hoje  #VemPraRuaBrasil https://t.co/ObaLQjSMlS 
+ Sentiment: Sentiment(classification='pos', p_pos=0.5, p_neg=0.5) 
+
+Tweet: RT @belluccis: tai ! #VemPraRuaBrasil https://t.co/hhhXTxO8eI 
+ Sentiment: Sentiment(classification='pos', p_pos=0.833333333333333, p_neg=0.16666666666666646) 
+
+Tweet: RT @leandromoc: #VemPraRuaBrasil
+
+estamos
+juntos
+
+Batman!
+
+.
+. https://t.co/HrxJYZYYET 
+ Sentiment: Sentiment(classification='neg', p_pos=0.32191780821917804, p_neg=0.6780821917808216) 
+
+Tweet: RT @shumbinho: #VemPraRuaBrasil https://t.co/nXPN16nzQ0 
+ Sentiment: Sentiment(classification='pos', p_pos=0.5, p_neg=0.5) 
+
+Tweet: RT @aeciodepapelao: Os "milhões de Cunhas" voltaram.  #VemPraRuaBrasil https://t.co/SxHm50s4mv 
+ Sentiment: Sentiment(classification='pos', p_pos=0.5, p_neg=0.5) 
+
+Tweet: Retweeted Ary ANTI PT (@Ary_AntiPT):
+
+Curitiba 
+#VemPraRuaBrasil 
+A República de Curitiba te espera... https://t.co/aR4ZxtBPLC 
+ Sentiment: Sentiment(classification='pos', p_pos=0.6392405063291138, p_neg=0.36075949367088617) 
+
