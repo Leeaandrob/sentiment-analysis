@@ -9,3 +9,6 @@ django-sslify==0.2.7
 raven==5.20.0
 djangorestframework==3.5.3
 requests==2.9.1
+pandas==0.19.2
+sklearn==0.0
+scipy==0.18.1
