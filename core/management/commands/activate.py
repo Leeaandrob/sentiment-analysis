@@ -38,7 +38,7 @@ def train(df, fit_file):
     joblib.dump(pipe, fit_file)
 
 
-def predict(text, fit_file):
+def predict(text, fit_file='sentiment_analyst/static//bag_words_SVC.csv'):
     pipe = joblib.load(fit_file)
     words = text
     return pipe.predict([words])

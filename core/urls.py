@@ -9,5 +9,5 @@ from core.apis import HomeAPI
 router = routers.DefaultRouter()
 
 urlpatterns = [
-    url(r'^comments/', HomeAPI.as_view(), name='comments')
+    url(r'^sentiment/', HomeAPI.as_view(), name='sentiment')
 ]
