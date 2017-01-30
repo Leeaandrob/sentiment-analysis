@@ -1,6 +1,5 @@
 # coding: utf-8
 import csv
-import unicodedata
 from nltk.corpus import stopwords
 from pandas import DataFrame
 
@@ -18,20 +17,6 @@ def pre_processor(text, cat):
     words = text.lower().split()
     words = ' '.join([w for w in words if w not in stops])
     return words, cat
-
-
-def remove_nonlatin(string):
-    new_chars = []
-    for char in string:
-        if char == '\n':
-            new_chars.append(' ')
-            continue
-        try:
-            if unicodedata.name(unicode(char)).startswith(('LATIN', 'SPACE')):
-                new_chars.append(char)
-        except:
-            continue
-    return ''.join(new_chars)
 
 
 def train(df, fit_file):
@@ -70,6 +55,9 @@ class Command(BaseCommand):
         new_data_text = new_data_text[1:]
         df = DataFrame(new_data_text)
         df.columns = ['text', 'sentiment']
+
         df.to_csv('sentiment_analyst/static/bag_words_SVC.csv',
                   sep=';', encoding='utf-8')
-        train(df, 'entiment_analyst/static/bag_words_SVC.csv')
+
+        print('Training...')
+        train(df, 'sentiment_analyst/static/bag_words_SVC.csv')
